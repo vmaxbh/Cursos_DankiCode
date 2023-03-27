@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+
+}
+p{
+    text-align: justify;
+}
+
+#img > img {
+    
+    padding: auto;
+    
+}
+
+
+table tr td{
+    align-items: center;
+    border-color:black;
+    border-style: solid;
+    width: 200px;
+    background-color: #c4bdbd;
+    
+}
