@@ -1,0 +1,56 @@
+<html>
+  <body>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        
+      .box {
+        width: 250px;
+        height: 250px;
+        background-color: rgb(184, 167, 167);
+        margin-left: 0;
+        border-radius: 120px;
+      }
+      .animEsquerda {
+        transition: 5s;
+        margin-left: 900px;
+        background-color: green;
+      }
+
+      .animBaixo {
+        transition: 5s;
+        margin-top: 370px;
+        background-color: rgb(7, 7, 95);
+      }
+
+      .animCima {
+        transition: 5s;
+        margin-bottom: 4000px;
+        background-color: rgb(226, 43, 165);
+      }
+      
+    </style>
+    <div class="box"></div>
+    <script>
+        
+      var box = document.querySelectorAll(".box")[0];
+      /*setTimeout(()=>{
+        box.classList.add('animEsquerda');
+        },1000);*/
+      box.addEventListener("click", () => {
+        box.classList.add("animEsquerda");
+        setTimeout(() => {
+          box.classList.add("animBaixo");
+        }, 1000);
+        setTimeout(() => {
+          box.classList.add("animCima");
+        }, 1000);
+        
+
+
+      });
+    </script>
+    
+  </body>
+</html>

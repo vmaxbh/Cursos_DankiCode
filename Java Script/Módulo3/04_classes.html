@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <script>
+      class Animal {
+        constructor(nome, idade, cor, raca, tamanho) {
+          this.nome = nome;
+          this.idade = idade;
+          this.cor = cor;
+          this.raca = raca;
+          this.tamanho = tamanho;
+        }
+        printNome() {
+          return this.nome;
+        }
+      }
+      animal = new Animal("Baruk", "2 anos", "marrom", "Vira-lata", "50cm");
+
+      console.log("Esse é o Nome do seu animal: ", animal.nome);
+      console.log("Essa é a idade do seu animal: ", animal.idade);
+      console.log("Essa é a cor do seu animal: ", animal.cor);
+      console.log("Essa é raça  do seu animal: ", animal.raca);
+      console.log("Esse é o tamanho do seu animal: ", animal.tamanho);
+    </script>
+  </body>
+</html>

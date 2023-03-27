@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funções</title>
+  </head>
+  <body>
+    <script>
+      //Funções
+      function testes2(nome, idade) {
+        console.log("O Nome passado é: " + nome);
+        console.log("A idade é " + idade);
+        console.log("----------------");
+      } // Função que atribui neste exemplo nome e idade e quando a função é invocada e o valor é atribuido o console mostra as condições criadas na função.
+
+      function pegarNome(parametro) {
+        if (parametro == 1) {
+          return "Guilherme";
+        } else {
+          return "Outro nome";
+        }
+      }
+      var nome = pegarNome(1);
+
+      testes2("Max", 40);
+      testes2("Danilo", 39);
+
+      console.log(nome);
+    </script>
+  </body>
+</html>
