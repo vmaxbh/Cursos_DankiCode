@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        
+        
+        body{
+            background-color: darkgrey;
+           
+            
+            
+        }
+        
+        .responsive{
+            background-image: url(imagens\ exercicio/fundo.jpg);
+          
+            border:2px solid blue;
+            border-radius: 6px;
+            opacity: ;
+            padding: 0 6px;
+            float: none;
+            display: block;/*Centralizar imagens*/
+            margin-left: auto;/*Centralizar imagens*/
+            margin-right: auto;/*Centralizar imagens*/
+            width: 50%;
+
+        }
+         @media only screen and (max-width:500px){
+                .responsive{
+                    width: 100%;
+                }
+         }  
+    </style>
+</head>
+<body>
+    <div class="responsive">
+        <form>
+            <h1>Formulário</h1>
+            <label for="fname">Primeiro nome:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="sname">Sobrenome:</label><br>
+            <input type="text" name="sname" id="sname"><br>
+            <label for="nasc">Ano que você nasceu:</label><br>
+            <input type="text" name="nasc" id="nasc"><br>
+            <label for="prof">Qual a sua profissão?</label><br>
+            <input type="text" name="prof" id="prof"><br>
+            <label for="prat">Qual o seu prato preferido?</label><br>
+            <input type="text" name="prat" id="prat"><br>
+            <label for="time">Para qual time você torce?</label><br>
+            <input type="radio" name="time1" id="atletico" value="Atlético">
+            <label for="atletico">Atlético</label><br>
+            <input type="radio" name="time2" id="cruzeiro" value="Cruzeiro">
+            <label for="cruzeiro">Cruzeiro</label><br>
+            <input type="radio" name="time3" id="america" value="America">
+            <label for="america">America</label><br>
+            <label for="eletro">Marque os eletrodomesticos que você tem na sua casa?</label><br>
+            <input type="checkbox" name="eletro1" id="eletro1" value="geladeira">Geladeira<br>
+            <input type="checkbox" name="eletro2" id="eletro2" value="fogão">Fogão<br>
+            <input type="checkbox" name="eletro3" id="eletro3" value="maquina de lavar">Máquina de lavar<br>
+            <input type="checkbox" name="eletro4" id="eletro4" value="microondas">Microondas<br>
+
+            
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
