@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando elementos no CSS via atributo</title>
+    <style>
+        body{
+            height: 100%;
+        }
+        /*a[href]{
+            background-color: yellow;
+
+        }*/
+
+        a[href*="google"]{
+            background-color: red;
+        }
+
+        a[href*="danki"]{
+            color: black;
+        }
+        a[attr ~= "google"]{
+            color: yellow;
+        }
+
+
+
+    </style>
+</head>
+<body>
+        <a href="www.google.com">Meu Link para o Google</a><br>
+        <a href="www.dankicode.com">Meu Link para a Dankicode</a>
+
+</body>
+</html>
