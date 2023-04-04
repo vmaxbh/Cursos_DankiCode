@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Meu Formulário</legend>
+            <input type="text" name="nome" placeholder="Digite seu nome"/><br>
+            <input type="text" name="email" placeholder="Digite seu e-mail"/><br>
+            <div>
+                <select name="lista">
+               
+                    <option disabled selected>Qual é a sua cor favorita?</option>
+                    <option value="Preto">Preto</option>
+                    <option value="Azul">Azul</option>
+                    <option value="Amarelo">Amarelo</option>
+                    <option value="Vermelho">Vermelho</option>
+                    <option value="Verde">Verde</option>
+
+                </select>
+            </div>
+            
+            <h2>Qual a sua cidade?</h2>
+            <div class="radio-input">
+                <div>
+                    <input type="radio" name="cidade" value="Florianópolis"/><span>Florianópolis</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="Belo Horizonte"/><span>Belo Horizonte</span>
+                </div>
+                <div>
+                    <input type="radio"name="cidade" value="São Paulo"/><span>São Paulo</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="Rio de Janeiro"/><span>Rio de Janeiro</span>
+                </div>
+            </div>
+            <h2>O que você gosta de comer?</h2>
+            <div class="input">
+                <div>
+                    <input type="checkbox" name="comida[]" value="Fruta"/><span>Fruta</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="comida[]" value="Fest-Food"/><span>Fest-Food</span>
+                </div>
+                <div>
+                    <input type="checkbox"name="comida[]" value="Salada"/><span>Salada</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="comida[]" value="Arroz Feijão"/><span>Arroz Feijão</span>
+                </div>
+            </div>
+            <div>
+                <textarea name="observacao" id="" cols="60" rows="12" placeholder="Possui alguma observação?"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" name="acao" value="Enviar!">
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 10px;
+
+        }
+        body{
+            height: 100%;
+        }
+
+        ul{
+            list-style-position: inside;
+        }
+        ul li:nth-of-type(2){
+            color: red;
+            background-color: yellow;
+        }
+        ul li:nth-of-type(3){
+            color:blue;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+
+    </ul>
+    
+</body>
+</html>

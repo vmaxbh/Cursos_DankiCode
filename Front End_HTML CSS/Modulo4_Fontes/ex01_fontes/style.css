@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    font-family: "Cedarville Cursive";
+   
+    padding: 5px;
+    background-color: bisque;
+    
+}
+body{
+    border: solid;
+    
+   
+}
+h2{
+    font-size: 38px;
+    text-align: center;
+
+
+}
+
+p{
+    width: 500px;
+    font-size: 34px;
+    text-align: justify;
+}
+
