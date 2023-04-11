@@ -42,7 +42,7 @@ section#login{
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url('imagens/cristo.jpg') ;
+    background: #5f2c82 url('imagens/fundo.jpg') ;
     background-size: cover;
     height: 200px;
 
@@ -51,4 +51,14 @@ section#login > div#imagem {
 section#login > div#formulario {
     padding: 10px;
     display: block;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+div#formulario > p {
+    font-size: 0.8em;
+
 }
