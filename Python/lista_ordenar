@@ -1,0 +1,6 @@
+cadastro = ["João", "Maria", "Pedro", "Max", "Andre", "Ana", "amanda", "beatriz"]
+cadastro.sort(key=str.lower)
+print(cadastro)
+for x in range(len(cadastro)):
+    print(x, cadastro[x])
+print("Com a função .sort(key=str.lower) conseguimos colocar uma lista em ordem alfabetica e considerando nomes com letra maiuscula e minuscula")
