@@ -1,10 +1,12 @@
 
-def times(time):
-    if (time == "Galo", "Atletico Mineiro", "Galao da Massa"):
-        print("Voce torce para o Maior de Minas!")
-    else:
-        print("O time que voce torce não tem relevancia nenhuma!")
-
-
-time = input("Qual o seu time do coração? ")
-print(times(time))
+esc_time = input("Qual time você torce? ")
+if (esc_time == "Galo") or (esc_time == "Atletico"):
+    print("-"*50)
+    print("-"*50)
+    print("Voce escolheu o melhor time do BRASIL!")
+    print("-"*50)
+    print("-"*50)
+else:
+    print("-"*50)
+    print("Seu time é irrelevante no cenário nacional!")
+    print("-"*50)    
