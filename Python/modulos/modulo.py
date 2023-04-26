@@ -1,3 +1,3 @@
 import primo
-
-print(primo.primo(22))
+num = input('Escreva um numero ')
+print(primo.primo(int(num)))
